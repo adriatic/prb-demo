@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demo Site 1 — Login</title>
+  <link rel="stylesheet" href="../common/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sign in</h1>
+
+    <form id="login-form">
+      <label for="username">Email</label>
+      <input
+        id="username"
+        name="username"
+        type="email"
+        autocomplete="username"
+        required
+      />
+
+      <label for="password">Password</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        autocomplete="current-password"
+        required
+      />
+
+      <button type="submit">Sign in</button>
+    </form>
+
+    <div id="message" class="message"></div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
+
